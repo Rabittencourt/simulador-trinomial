@@ -2,7 +2,7 @@
 
 Uma aplicação interativa para simular e visualizar Passeios Aleatórios Trinomiais (Trinomial Random Walks). O projeto modela decisões estocásticas (Boas, Neutras, Ruins) em uma rede temporal, calculando estatísticas via simulação de Monte Carlo.
 
-🔗 **[Acesse o App Online Aqui]([LINK_DO_SEU_STREAMLIT_AQUI](https://simulador-trinomial-cwxxfnqxwwxvghqneadbcv.streamlit.app/))**
+🔗 **[Acesse o App Online Aqui](https://LINK_DO_SEU_APP.streamlit.app)**
 
 ## 📊 Funcionalidades
 
@@ -17,4 +17,24 @@ Se quiser rodar na sua máquina:
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/SEU_USUARIO/NOME_DO_REPO.git](https://github.com/SEU_USUARIO/NOME_DO_REPO.git](https://github.com/Rabittencourt/simulador-trinomial.git)
+   git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+   ```
+
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Execute o app:
+   ```bash
+   streamlit run app.py
+   ```
+
+## 📂 Estrutura do Projeto
+
+- `app.py`: Interface do usuário (Frontend Streamlit).
+- `src/engine.py`: Motor matemático e lógica de simulação.
+- `src/plots.py`: Geração de gráficos com Matplotlib.
+
+---
+Desenvolvido com Python 🐍 e Streamlit 🎈
